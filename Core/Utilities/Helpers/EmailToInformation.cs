@@ -11,11 +11,11 @@ namespace Core.Utilities.Helpers
     //Gönderilecek bilgilendirme mailinin şablonu oluşturulur
     public class EmailToInformation
     {
-        private string smtpServer = "smtp.office365.com"; //gönderim yapacak hizmetin smtp adresi
+        private string smtpServer = "smtp.demomailserver.com"; 
         private int smtpPort = 587;
-        private string username = "yasnesra@outlook.com";
-        private string password = "Esra1030515786";
-        private string senderEmail = "yasnesra@outlook.com";
+        private string username = "demouser@outlook.com";
+        private string password = "***********";
+        private string senderEmail = "demouser1@outlook.com";
 
         // e-posta gönderimi için gerekli işlemleri gerçekleştirir
         public void SendEmail(string recipientEmail)
